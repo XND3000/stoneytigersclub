@@ -20,8 +20,43 @@ const style = {
 
 const Hero = () => {
     return (<div className={style.wrapper}>
-           <div className={style.container}>
-            <div className={style.contentWrapper}></div>
+                <div className={style.container}>
+                 <div className={style.contentWrapper}>
+                     <div className={style.copyContainer}>
+                         <div className={style.title}>
+                             Join The Discord, Collect, and sell extraordinary NFTs
+                         </div>
+                         <div className={style.description}>
+                              All across the world people love and cherish the tiger. They have been worshipped and revered throughout history, as indigenous cultures have paid tribute to these astonishing creatures.
+                         </div>
+                         <div className={style.ctacContainer}>
+                             < button className={style.accentedButton}>Explore</button>
+                             < button className={style.accentedButton}>Stoney Promise</button>
+                         </div>
+                     </div>
+                     <div className={style.cardContainer}>
+                        <img className="rounded-t-lg" 
+                         src='https://pbs.twimg.com/media/FI6DeP-XwAAZKZi?format=jpg&name=small' 
+                         alt="welcometiger"
+                         />
+                         <div className={style.infoContainer}>
+                             <img 
+                             className="h-[2.25rem] rounded-full"
+                             src="https://pbs.twimg.com/media/FIv8UwoWQAA3cR3.jpg"
+                             alt="stoneytiger"
+                             />
+                             <div className={style.author}>
+                                 <div className={style.name}>Aidan Waldron</div>
+                                 <a
+                                    className="text-[#1868b7]"
+                                    href="https://opensea.io/collection/stoneytigersclub-nft"
+                                    >
+                                       Aidan Waldron 
+                                    </a>
+                             </div>
+                         </div>
+                     </div>
+            </div>
         </div>
     </div>
     )

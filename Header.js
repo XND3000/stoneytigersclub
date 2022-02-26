@@ -6,7 +6,7 @@ import { AiOutlineSearch } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
 
-const style = {
+const style = { 
   wrapper: `bg-[#04111d] w-screen px-[1.2rem] py-[0.8rem] flex `,
   logoContainer: `flex items-center cursor-pointer`,
   logoText: ` ml-[0.8rem] text-white font-semibold text-2xl`,
@@ -24,7 +24,7 @@ const Header = () => {
       <Link href="/">
         <div className={style.logoContainer}>
           <Image src={stoneytigerlogo} height={40} width={40} />
-          <div className={style.logoText}>Opensea</div>
+          <div className={style.logoText}>StoneyTigersClub</div>
         </div>
       </Link>
       <div className={style.searchBar}>
