@@ -1,8 +1,8 @@
 import React from 'react'
-
+import stoneybackground from '../assets/stoneybackground.png'
 const style = {
     wrapper: `relative`,
-    container: `before:content-[''] before:bg-red-500 before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url('https://lh3.googleusercontent.com/ujepnqpnL0nDQIHsWxlCXzyw4pf01yjz1Jmb4kAQHumJAPrSEj0-e3ABMZlZ1HEpJoqwOcY_kgnuJGzfXbd2Tijri66GXUtfN2MXQA=s250')] before:bg-cover before:bg-center before:opacity-30 before:blur`,
+    container: `before:content-[''] before:bg-red-500 before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url('https://pbs.twimg.com/media/FLkhRmxXEAoHT5V.jpg')] before:bg-cover before:bg-center before:opacity-30 before:blur`,
     contentWrapper: `flex h-screen relative justify-center flex-wrap items-center`,
     copyContainer: `w-1/2`,
     title: `relative text-white text-[46px] font-semibold`,
@@ -50,9 +50,7 @@ const Hero = () => {
                                  <a
                                     className="text-[#1868b7]"
                                     href="https://opensea.io/collection/stoneytigersclub-nft"
-                                    >
-                                       Aidan Waldron 
-                                    </a>
+                                    ></a>
                              </div>
                          </div>
                      </div>
